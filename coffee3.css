@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bgc{
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+/* place all images by the right and the text on the left  */
+.des1{
+    display: flex;
+    gap: 190px;
+    align-items: end;
+    margin-bottom: 50px;
+    color: lightgray;
+    margin-top: 5px;
+    
+
+}
+/* give each image a color of lightgray and a little gap */
+.des2{
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    color: lightgray;
+
+}
+.we{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.imp{
+    display: flex;
+    gap: 3px;
+}
+.b{
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+}
+p{
+    color: lightgray;
+}
+/* give it a line that has a color of lightgray */
+.line{
+    background-color: lightgray;
+    height: 1px;
+    margin-top: 20px;
+}
+button{
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 40px;
+  align-items: center;
+  border-radius: 4px;
+margin-left: 6px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.btn1{
+  border: 1px solid chocolate;
+  color: chocolate;
+  background-color: antiquewhite;
+}
+.down{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.pri{
+    display: flex;
+    gap: 100px;
+}
+.choc{
+    color: chocolate;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.btn2{
+    border: 1px solid chocolate;
+    color: white;
+    background-color:chocolate;
+    padding: 20px 60px;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.black{
+    border-bottom: 4px solid black;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-left:180px;
+    transition: background-color 0.3s ease-in-out;
+   
+}

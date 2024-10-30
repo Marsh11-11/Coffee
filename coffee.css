@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cup{
+    background-image: url(./IMAGE/Image\ Onboarding.png);
+    background-size: cover;
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.5s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+  
+    .text{
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .well{
+        position: absolute;
+        top: 80%;
+        color: lightgray;
+        text-align: center;
+    }
+  
+    .button{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 90%;
+        padding: 16px 20px;
+        background-color: #c67c4e;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        text-decoration: none;
+        border-radius: 16px;
+        &:hover{
+            background-color: #c67c4e;
+           
+        }
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    @media (max-width: 600px){
+        .text{
+            font-size: 18px;
+        }
+       .well{
+            font-size: 14px;
+        }
+    }
+
+}

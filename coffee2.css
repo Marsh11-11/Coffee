@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.5s ease-in-out;
+    overflow: hidden;
+
+}
+
+.all{
+    background-color: #2a2a2a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.l{
+    padding-left: 7px;
+    padding-top: 50px;
+    color: lightgray;
+    display: flex;
+    gap: 135px;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+.b{
+    padding-left: 7px;
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    gap: 135px;
+    align-items: center;
+    justify-content: space-between;
+}
+.se{
+    background-color: #2a2a2a;
+    padding: 16px;
+    display: flex;
+    gap: 135px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.cl{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    &:hover{
+        background-color: #3e3e3e;
+    }
+    &:focus{
+        outline: none;
+    }
+    &:active{
+        transform: scale(0.95);
+    }
+    &:disabled{
+        background-color: #2a2a2a;
+        cursor: not-allowed;
+    }
+    @media screen and (max-width: 600px){
+        flex-direction: column;
+    }
+}
+
+.button{
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+/* place image in center and let it enter the div above*/
+.ban{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: 10px;
+  width: 100%;
+}
+/* create a navbar with width of the whole screen */
+.bar{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn2{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: chocolate;
+  border-radius: 10px;
+  padding: 10px;
+} 
+.call{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+}
+.d{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: lightgray;
+}
+.but{
+    background-color: chocolate;
+    border-radius: 10px;
+}
+.bo{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 27px;
+    size: 18px;
+    font-weight: 600;
+}
+.select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    &:focus{
+        outline: none;
+    }
+    &:active{
+        transform: scale(0.95);
+    }
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.select0{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.sel1{
+    transition: background-color 0.3s ease-in-out;
+    &:focus{
+        outline: none;
+    }
+    &:active{
+        transform: scale(0.95);
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.select2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+  
+
+}
+.bot1{
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 27px;
+    size: 18px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 40px;
+    background-color: white;
+    transition: background-color 0.3s ease-in-out;
+    
+    
+}
+.black{
+    border-bottom: 4px solid black;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-left:180px;
+    transition: background-color 0.3s ease-in-out;
+   
+}
